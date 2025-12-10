@@ -1,0 +1,22 @@
+{
+  "name": "express_api_routes",
+  "version": "1.0.0",
+  "description": "API Express con rutas organizadas usando Express Router",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "router",
+    "rest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
