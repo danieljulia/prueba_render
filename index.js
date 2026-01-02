@@ -2,7 +2,7 @@ import express from 'express';
 import moviesRouter from './routes/movies.routes.js';
 
 const app = express();
-const PORT = 3000;
+const PORT = 80;
 
 // Middleware para parsear JSON
 app.use(express.json());
