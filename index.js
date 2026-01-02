@@ -19,6 +19,6 @@ app.use((req, res, next) => {
 app.use('/api/movies', moviesRouter);
 
 // Iniciar servidor
-app.listen(PORT, "0.0.0.0", () => {
+app.listen(PORT, () => {
   console.log(`Servidor Express corriendo en http://localhost:${PORT}`);
 });
